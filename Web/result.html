@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-widht, initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="ie-edge">
+        <title>Results</title>
+    </head>
+    <body>
+        <div id="result"></div>
+                    <!-- Button for Back  -->
+        <a href="D:\Dandy\Web\index.html">
+        </tr>
+        <td><button type="submit">Back To Form</button></td></tr></a>
+        <script>
+            const resultlist = document.getElementById("result")
+            new URLSearchParams(window.location.search).forEach((value,name) => {
+                resultlist.append(`${name}:${value}`)
+                resultlist.append(document.createElement('br'))
+            })
+        </script>
+    </body>
+</html>
