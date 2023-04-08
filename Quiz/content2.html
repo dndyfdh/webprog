@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <h1 style="text-align:center; font-size: 35px ;">
+            <u>Form Registrasi</u>
+        </h1>
+    </head>
+        <form action="result.html" method="get" enctype="multipart/form-data">
+        <table>
+            <!-- Nama -->
+            <tr>
+                <td><label for="name">Nama Calon Mahasiswa : </label></td>
+                <td><input size="50" type="text" name="name" id="name" required></td>
+            </tr>
+            <!-- Email -->
+            <tr>
+                <td><label for="email">Email :</label></td>
+                <td><input size="50" type="text" name="email" id="email" required></td>
+            </tr>
+            <!-- Fakultas --> <td><label for="">Fakultas Pilihan : </label></td>
+            <tr>
+                <td><label for="ilkom"><li>Ilmu Komputer</li></label></td>
+                <td><input type="radio" name="fakultas" id="ilkom" value="ilkom"></td>
+            </tr>
+            <tr>
+                <td><label for="feb"><li>Ekonomi dan Bisnis</li></label></td>
+                <td><input type="radio" name="fakultas" id="feb" value="feb"></td>
+            </tr>
+                
+            <!-- Biodata -->
+            <tr>
+                <td><label for = "bio">Tentang Anda :</label></td>
+                <td><textarea id="bio" name="bio" rows="7" cols="50"></textarea> </td>
+
+            <!-- Button for Submit  -->
+            </tr>
+                <td><button type="submit">Submit</button></td>
+            </tr>
+        </table>
+    </form>
+</html>
